@@ -9,19 +9,9 @@
 
 </head>
 <body>
-    <div class="container">
-        <!-- header -->
-        <div class="row"><h1 class="display-1">Hardware Store</h1>
-        </div>
-        <!-- content -->
-        <div class="row"></div>
-        <!-- footer -->
-        <div class="row"></div>
-    </div>
-    
-    <!-- <div class="container-md">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio minus numquam ad soluta id cupiditate iusto, fugiat fugit commodi neque facilis. Reprehenderit assumenda dolorem explicabo aliquam quos repudiandae voluptates sapiente?</p>
-    </div> -->
+    {% extends 'layout.html' %}
+    {%block header%}Hardware Store{%endblock%}
+    {%block maincontent%}This is the main content of the index.html Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem excepturi reprehenderit iusto animi ducimus, doloribus quaerat? Esse consequatur itaque omnis?{%endblock%}
     
 </body>
 </html>
